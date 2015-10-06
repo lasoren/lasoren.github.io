@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Luke Sorenson's online portfolio and resume">
+    <meta name="author" content="Luke Sorenson">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>Luke Sorenson</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-43389406-1', 'lukesorenson.info');
+	  ga('send', 'pageview');
+	</script>
+
+  <style type="text/css">
+  .video-container {
+    padding-bottom: 90.00%;
+    padding-top: 0px; height: 0; overflow: hidden;
+  }
+ 
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  </style>
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <!-- <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div> 
+    </div> -->
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <!-- <li data-target="#myCarousel" data-slide-to="3"></li> -->
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="assets/images/boston_summer.png" alt="Boston winter">
+          <div class="container">
+            <div style="background-color:rgba(75,75,75,0.7);" class="carousel-caption">
+              <h1>Luke Sorenson</h1>
+              <p>Engineering major at Boston University and founder of mobile app <a target="_blank" href="http://downty.me">Downtyme</a>.</p>
+              <p><a class="btn btn-lg btn-primary" href="downloads/LukeSorensonResume.pdf" role="button">Resume</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/images/downtyme_header.png" alt="Downtyme mobile app">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 style="font-size:3em;">Downtyme - Let's Get Together</h1>
+              <p style="font-size:20px;">A mobile app designed to connect you with friends for meals, to study, or just to hang out. Available now for iOS and Android.</p>
+              <p><a target="_blank" class="btn btn-lg btn-primary" href="http://downty.me" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="assets/images/mixr.png" alt="Mixr">
+          <div class="container">
+            <div class="carousel-caption" style="background-color:rgba(75,75,75,0.7);">
+              <h1>Mixr</h1>
+              <p> A top seven hack at LA Hacks 2014.</p>
+              <p><a class="btn btn-lg btn-primary" style="background-color: #CC255F; border-color: #CC255F" href="#mixr" role="button">Find out why</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="item">
+          <img src="assets/images/simv.png" alt="SIM-V (Self-Driving Indoor Mapping Vehicle)">
+          <div class="container">
+            <div style="background-color:rgba(75,75,75,0.7);" class="carousel-caption">
+              <h1>SIM-V</h1>
+              <p>Self-Driving Indoor Mapping Vehicle built as a final project for Microprocessors at Boston University.</p>
+              <p><a class="btn btn-lg btn-primary" href="#simv" role="button">Watch video</a></p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <a target="_blank" href="http://www.linkedin.com/pub/luke-sorenson/59/555/804"><img class="img-circle" src="assets/images/linkedin.png" alt="LinkedIn"></a>
+          <h2><a target="_blank" href="http://www.linkedin.com/pub/luke-sorenson/59/555/804">LinkedIn</a></h2>
+          <p>Connect with me on LinkedIn.</p>
+          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="assets/images/me.png" alt="Photo of me">
+          <h2>Luke Sorenson</h2>
+          <p>Welcome to my online portfolio! Here you'll find some of the stuff I've been dedicating my time to recently. I love taking on challenging problems and hope to make an impact on the world with my work.</p>
+          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <a target="_blank" href="http://github.com/lasoren"><img class="img-circle" src="assets/images/github.png" alt="Github"></a>
+          <h2><a target="_blank" href="http://github.com/lasoren">Github</a></h2>
+          <p>Check out some of my public work on Github!</p>
+          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <!-- <div class="col-lg-4">
+          <img class="img-circle" src="assets/images/twitter.png" alt="Twitter">
+          <h2><a target="_blank" href="http://twitter.com/lasoren_">Twitter</a></h2>
+          <p>Follow me on Twitter.</p> -->
+          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+        <!-- </div> /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Downtyme <span class="text-muted">available now for iOS and Android.</span></h2>
+          <p class="lead"><a href="http://downty.me" target="_blank">Downtyme</a> allows you to match schedules and make plans with nearby available friends. It's the fastest, most convenient way to get together in your free time. I cofounded Downtyme Inc. in January 2014. We're now a cross functional team of 9 engineering and business students from three different top tier universities. We were recently backed by Rough Draft Ventures and won the MIT Enterprise Forum's Beantown Throwdown, an inter-collegiate comptetition amongst 9 Boston area startups.</p>
+        </div>
+        <div class="col-md-5">
+          <a href="http://downty.me" target="_blank"><img class="featurette-image img-responsive" src="assets/images/downtyme_demo.png" alt="Downtyme on iOS and Android"></a>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" id="mixr">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <div class="video-container">
+              <iframe width="560" height="315" src="//www.youtube.com/embed/xJHXLNfmiZc" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Mixr <span class="text-muted">top seven finalist at LA Hacks 2014</span></h2>
+          <p class="lead">I created Mixr with John Moore and Timothy Chong at UCLA in 36 hours. The iPhone app is designed to mix up your social circles with your friends. Mixr showcases a new technology we developed at the hackathon using iBeacon and compass information. To reccommend a friend, simply swipe in the direction of someone else. Check it out! </p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" id="simv">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">SIM-V <span class="text-muted">Self-Driving Indoor Mapping Vehicle</span></h2>
+          <p class="lead">A final project for EC450 (Microprocessors) at Boston University. I worked with John Moore to build an autonomous vehicle, which navigates hallways taking pictures of its surroundings. We dismantled an RC car and purchased various components to accomplish our goal of an indoor mapping vehicle. Check out the video for an overview of how it works! </p>
+        </div>
+        <div class="col-md-5">
+          <div class="video-container">
+              <iframe width="560" height="315" src="//www.youtube.com/embed/MP4LB2NcReY" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="assets/images/py_games.png" alt="Chess and Dots and Boxes">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Artifical Intelligence engines <span class="text-muted">for Chess and "Dots and Boxes"</span></h2>
+          <p class="lead">Test your intelligence by playing these two games I coded (in Python) or challenge your friends!</p>
+          <a style="font-size:20px;" href="downloads/Chess.zip">Download Chess (Source Code)</a> <br/>
+          <a style="font-size:20px;" href="downloads/DotsAndBoxesGame.zip">Download Dots and Boxes (Source Code)</a>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Research <span class="text-muted">Gesture-Based Authentication</span></h2>
+          <p class="lead">Today, security systems are more important than ever before. In this research project at Boston University, revocable alternatives to pure biometrics, such as full-motion body gestures are explored. During Summer 2013, I worked under the supervision of Professor Ishwar and Professor Konrad on this project.</p>
+          <a style="font-size:20px;" target="_blank" href="http://www.bu.edu/ece/undergraduate/undergraduate-research/luke/">Learn more about my role</a>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="assets/images/gesture.png" alt="Unlock iPad with gesture?">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 Luke Sorenson </p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/docs.min.js"></script>
+  </body>
+</html>
