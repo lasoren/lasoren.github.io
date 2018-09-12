@@ -3,12 +3,12 @@
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
     xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
-  <loc>http://www.lukesorenson.info/</loc>
+  <loc>http://lasoren.github.com/</loc>
   <lastmod>2014-03-23T19:11:20+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.lukesorenson.info/downloads/LukeSorensonResume.pdf</loc>
+  <loc>http://lasoren.github.com/downloads/LukeSorensonResume.pdf</loc>
   <lastmod>2014-03-23T17:38:50+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
