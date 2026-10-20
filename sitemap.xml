@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-    xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>http://lasoren.github.com/</loc>
-  <lastmod>2014-03-23T19:11:20+00:00</lastmod>
-  <changefreq>daily</changefreq>
+  <loc>https://lukesoren.com/</loc>
+  <lastmod>2026-10-20T00:00:00+00:00</lastmod>
 </url>
 <url>
-  <loc>http://lasoren.github.com/downloads/LukeSorensonResume.pdf</loc>
-  <lastmod>2014-03-23T17:38:50+00:00</lastmod>
-  <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://lasoren.github.com/rsvp</loc>
+  <loc>https://lukesoren.com/rsvp</loc>
   <lastmod>2021-09-20T17:38:50+00:00</lastmod>
-  <changefreq>daily</changefreq>
 </url>
 </urlset>
